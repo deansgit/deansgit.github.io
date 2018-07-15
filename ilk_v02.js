@@ -31,12 +31,17 @@ request.onerror = function(event){
 // Create the database
 request.onupgradeneeded = function(event){
   db = event.target.result;
+  
+  if (event.oldVersion < 1){
+    db.createObjectStore(DB_STORE_NAME, {keypath: "id", autoIncrement: true});
+  }
+  
   if (event.oldVersion < DB_VERSION){
     db.deleteObjectStore(DB_STORE_NAME);
-    var store = db.createObjectStore(DB_STORE_NAME, {keypath: "id", autoIncrement: true});
-    store.createIndex(DB_WORD_INDEX, ["word.Korean", "word.English"]);
-    writeWordsinDB(store);
   }
+  var store = db.createObjectStore(DB_STORE_NAME, {keypath: "id", autoIncrement: true});
+  store.createIndex(DB_WORD_INDEX, ["word.Korean", "word.English"]);
+  writeWordsinDB(store);
 };
 
 request.onsuccess = function(){
