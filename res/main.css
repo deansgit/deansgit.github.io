@@ -1,0 +1,28 @@
+#display {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display:table;
+}
+
+.gridpiece {
+  font-size: 2vw;
+  display: inline-table;
+  width: 15%;
+  min-height: 33px;
+  text-align: center;
+  vertical-align: middle;
+  border: 0.5rem outset skyblue;
+  border-radius: 12px;
+  box-shadow: 0 0 0 0.25em lightgrey;
+  margin: 1%;
+  padding: 3rem;
+  /* padding-top: 3rem; */
+  /* padding-bottom: 3rem; */
+  
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}

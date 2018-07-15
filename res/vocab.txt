@@ -1,0 +1,892 @@
+가게,store
+가격,price
+가깝다,close
+가다,go
+가르치다,teach
+가방,bag
+가수,singer
+가스레인지,gas range
+가습기,humidifier
+가운데,middle
+가을,autumn
+가족,family
+가지,eggplant
+가지다,have
+간호사,nurse
+갈비,rib
+갈아타다,transfer
+감,feeling
+감기에 걸리다,catch a cold
+감사합니다,thank you
+감자,potato
+값,value
+강아지,puppy
+개,dog
+개(단위명사),(unit counter)
+거기,there
+거실,livingroom
+거울,mirror
+건강에 좋다,it's good for your health
+건강하다,healthy
+건축가,architect
+걷다,walk
+걸다,bet
+겨울,winter
+결혼,marriage
+결혼기념일,wedding anniversary
+결혼식,wedding ceremony
+경복궁,Gyeongbokgung
+경주,Gyeongju
+경찰관,police officer
+경찰서,police office
+경험,experience
+계단,stairs
+계란,egg
+계속,continue
+계시다,be there
+계절,season
+고객,customer
+고구마,sweet potato
+고기,meat
+고맙습니다,thank you
+고모,aunt
+고추,pepper
+고프다,hungry
+곳,place
+공공 기관,public institutions
+공기가 좋다,the air is good
+공무원,official
+공부,study
+공부하다,study
+공연,show
+공원,park
+공장,factory
+공책,notebook
+공항,airport
+과일,fruit
+과자,snack
+과장님,supervisor
+관광,tourism
+괜찮다,okay
+괜찮아요,it's okay
+교사,teacher
+교실,classroom
+교통편,transportation
+구경,caliber
+구급상자,first aid kit
+구두,shoes
+구청,ward
+국물,soup
+국수,noodle
+국적,nationality
+군만두,fried dumplings
+군인,soldier
+권,volume
+귀,ear
+귀걸이,earring
+귀엽다,cute
+귤,tangerine
+그네를 타다,take a swing
+그래서,so
+그럼,then
+그릇,bowl
+그리고,and
+그리다,draw
+그림,drawing
+그저께,day before yesterday
+극장,theater
+근처,near by
+금요일,Friday
+기념일,anniversary
+기다리다,wait
+기대되다,be expected
+기분,feeling
+기쁘다,happy
+기술자,technician
+기운,strength
+기자,reporter
+기차,train
+기차역,train station
+기침,cough
+김,kim
+김밥,kimbab
+김치,kimchi
+김치찌개,kimchi stew
+깎다,cut
+깨끗하다,clean
+깻잎,sesame
+꼭,exactly
+꽃,flower
+꽃집,florists
+꿀,honey
+끄다,turn off
+끓이다,boil
+나가다,go out
+나라,country
+나쁘다,bad
+나오다,come out
+나이,age
+나중,later
+날,day
+날씨,weather
+날씬하다,it is slim
+날짜,date
+남동생,younger brother
+남부 지방,south
+남이섬,nami
+남자,man
+남편,husband
+낮,day
+낮다,low
+내과,medicine
+내년,next year
+내려가다,go down
+내일,tomorrow
+냉면,cold noodles
+냉장고,refrigerator
+너무,too
+넓다,wide
+넘어지다,fall down
+넣다,insert
+넥타이,necktie
+노래,song
+노래방,karaoke
+놀다,play
+놀이공원,amusement park
+농구,basketball
+농구공,a basketball
+농부,farmer
+높다,high
+누가,who
+누구,who
+누나,sister
+눈,eye
+눈병,eye disease
+느리다,slow
+늦다,late
+다니다,go
+다리,bridge
+다섯,five
+다시,again
+다용도실,utility room
+다음 달,next month
+다음 주,next week
+다치다,get hurt
+단오,Dano
+단풍,maple
+달력,calendar
+닭,chicken
+닭갈비,chicken ribs
+담배를 피우다,smoking
+당근,carrot
+대,versus
+대추,jujube
+대추차,jujube tea
+대학생,college student
+댁,house
+더,more
+덥다,hot
+도서관,library
+도시,city
+도장,stamp
+도착하다,arrive
+돈,money
+돈가스,pork cutlets
+돈을 넣다,put the money
+돈을 보내다,spend your money
+돈을 찾다,withdraw cash
+돌,stone
+돌아오다,come back
+돌잔치,birthday party
+돌잡이,Doljabi
+돕다,help
+동료,colleague
+동안,during
+동전,coin
+동주민센터,east community center
+동화책,fairy tale book
+돼지,pig
+돼지고기,pork
+된장,miso
+된장찌개,soybean paste stew
+두부,tofu
+두통,headache
+뒤,rear
+드라마,drama
+드리다,give
+드시다,eat
+들어가다,go in
+등산,mountain climbing
+등산화,hiking boots
+따뜻하다,warm
+딸,daughter
+딸기,strawberry
+떠들다,chatter
+떡국,rice cake soup
+떡볶이,tteokbokki
+똑똑하다,smart
+뚱뚱하다,fat
+뜨겁다,hot
+뜻,meaning
+띠,belt
+라면,ramen
+린스,rinse
+마당,yard
+마리,marie
+마시다,drink
+마트,mart
+만나다,meet
+만나서 반갑습니다,nice to meet you
+만지다,touch
+많다,many
+많이,a lot of
+말,words
+맛있게 드세요,bon appetite
+맛있다,delicious
+맞다,right
+매실,plum
+매일,everyday
+맥주,beer
+맵다,spicy
+머리,head
+머리핀,barrette
+먹다,eat
+먼저,first
+멀다,far
+멋있다,cool
+멍이 들다,hold bruises
+명,persons
+명절,holiday
+모과차,quince car
+모두,all
+모레,tomorrow
+모르다,I do not know
+모이다,gather
+모자,hat
+목,neck
+목걸이,necklace
+목소리,voice
+목요일,thursday
+몸살,sick
+몽골,mongolia
+무,radish
+무궁화,rose of sharon
+무릎,knee
+무리하다,overwork
+무슨,what
+무엇,what
+문,door
+문화,culture
+물,water
+물약,liquid medicine
+물파스,Liquid Pas
+미안합니다,sorry
+미역국,seaweed soup
+미용사,hairdresser
+미용실,salon
+바나나,banana
+바쁘다,busy
+바지,pants
+박물관,museum
+밖,out
+반,half
+반창고,adhesive plaster
+받다,receive
+발,foot
+밤(과일),night (fruit)
+밤(시간),night (time)
+밥,rice
+방,room
+방법,way
+배(과일),pear
+배(교통수단),times (vehicle)
+배낭,backpack
+배달,delivery
+배달하다,it is delivered
+배우,actor
+배우다,learn
+배추,cabbage
+배탈이 나다,stomachache
+백두산,Baekdu Mountain
+백일,one hundred days
+백화점,department store
+밴드,band
+밴드를 붙이다,join the band
+뱀,snake
+버리다,abandon
+버섯,mushroom
+버스터미널,bus terminal
+번역가,translator
+벌,bee
+베란다,veranda
+베트남,Vietnam
+벨트,belt
+변기,toilet
+변호사,lawyer
+병(단위명사),bottles (unit noun)
+병원,hospital
+보건소,public health
+보내다,send
+보다,see
+보름달,full moon
+보쌈,bossam
+보통,usually
+보통이다,is average
+복숭아,peach
+볶음밥,fried rice
+볼펜,pen
+봄,spring
+부러지다,fall break
+부르다,call
+부모님,parents
+부부,couple
+부산,busan
+부엌,kitchen
+부지런하다,be diligent
+부채춤,fan dance
+부츠,boots
+분,minute
+분식,snack bar
+분식집,snack shop
+불고기,bulgogi
+불다,blow
+붙이다,attach
+블라우스,blouse
+비,ratio
+비밀번호,password
+비빔밥,bibimbap
+비싸다,expensive
+비자,visa
+비타민,vitamin
+비행기,airplane
+빠르다,fast
+빨래,wash
+빨리,quickly
+빵,bread
+빵집,bakery
+사과,apple
+사다,buy
+사람,person
+사랑하다,love
+사무실,office
+사업가,entrepreneur
+사이,between
+사장님,boss
+사전,dictionary
+사진,photo
+사진을 찍다,taking pictures
+산부인과,obstetrics and gynecology
+살다,live
+삼겹살,pork belly
+삼계탕,samgyetang
+삼촌,uncle
+상설할인매장,permanent discount stores
+상자,box
+상처,wound
+상추,lettuce
+샌들,sandal
+생강차,ginger
+생선,fish
+생신,birthday
+생일,birthday
+생활,life
+생활용품,household goods
+샤브샤브,shabu
+샴푸,shampoo
+서명,signature
+서울,seoul
+서점,bookstore
+석류,pomegranate
+선글라스,sunglasses
+선물,gift
+선생님,teacher
+설날,new year
+설사,diarrhea
+설악산,mt. seolark
+성격,character
+성격이 좋다,good nature
+성명,name
+성묘를 하다,ancestor reverence
+성함,name
+세다,count
+세면대,washstand
+세배를 하다,it is a triple
+세종대왕,King Sejong
+세탁기,washer
+세탁소,laundry
+센터,center
+셔츠,shirt
+소,small
+소개,introduce
+소개하다,introduce
+소독약,sanitizer
+소방관,firefighter
+소방서,fire station
+소원을 빌다,i wish beg
+소파,sofa
+소포,parcel
+소화제,peptic
+손,hand
+손가락,finger
+손님,customer
+송이,cluster
+송편,songpyeon
+송편을 빚다,make songpyeon
+쇼핑,shopping
+쇼핑하다,to shop
+수건,towel
+수도,capital
+수령,receipt
+수박,watermelon
+수업,class
+수영,swimming
+수영장,swimming pool
+수요일,wednesday
+수표,check
+숙소,rooms
+숙제,homework
+숙제하다,do homework
+순두부찌개,tofu stew
+숫자,number
+쉬다,rest
+슈퍼마켓,supermarket
+스웨터,sweater
+스카프,scarf
+슬리퍼,slipper
+시간,time
+시계,clock
+시골,country
+시금치,spinach
+시끄럽다,noisy
+시원하다,cool
+시작하다,start
+시장,market
+시청,city hall
+시키다,make someone do
+식당,restaurant
+식물원,botanical garden
+식용유,cooking oil
+식탁,table
+식후,meal
+신문,newspaper
+신발,shoes
+신분증,id
+신청서,application
+실례합니다,excuse me
+싫어하다,dislike
+싸다,cheap
+쌀국수,rice noodles
+씨름을 하다,wrestle
+씻다,wash
+아기를 낳다,you had a baby
+아내,wife
+아니에요,no
+아들,son
+아래,bottom
+아리랑,arirang
+아마,maybe
+아이,children
+아이스크림,ice cream
+아저씨,mister
+아주,very
+아주머니,old lady
+아직,yet
+아침,morning
+아파트,apartment
+아프다,pain
+안,within
+안경을 끼다,wear glasses
+안과,ophthalmology
+안녕?,hello?
+안녕하세요,good morning
+안녕히 가세요,goodbye
+안녕히 계세요,good-bye
+안녕히 주무세요,good night
+안녕히 주무셨어요?,good morning?
+안약을 넣다,put the eye drops
+앉다,sit
+알다,know
+알약,pill
+앞,front
+애국가,national anthem
+액세서리,accessory
+야구,baseball
+야구공,baseball
+야식,midnight snack
+약,about
+약국,pharmacy
+약속,appointment
+양,amount
+양념 치킨,marinated chicken
+양말,amount - say
+양배추,cabbage
+양복,suit
+양식,form
+양파,onion
+어깨,shoulder
+어디,where
+어디에 살아요?,where do you live?
+어디에서 왔어요?,where are you from?
+어제,yesterday
+언니,sister
+언제,when
+얼굴,face
+얼마나 걸려요?,how long does it take?
+없다,none
+에스컬레이터,escalator
+에어컨,air conditioner
+엘리베이터,elevator
+여권,passport
+여기,here
+여동생,younger sister
+여름,summer
+여보,honey
+여자,woman
+여행사,travel agency
+역,station
+연고,ointment
+연락하다,contact
+연세,age
+연장하다,extend
+연필,pencil
+연휴,holidays
+열,ten
+열다,open
+열쇠,key
+열심히,hard
+열이 나다,have a fever
+영어,english
+영화,movie
+영화관,cinema
+영화를 보다,watch a movie
+옆,side
+예쁘다,pretty
+예약하다,make a reservation
+오늘,today
+오다,come
+오렌지,orange
+오른쪽,right
+오빠,brother
+오이,cucumber
+오전,morning
+오후,afternoon
+올라가다,go up
+올해,this year
+옷,dress
+옷장,closet
+외국인등록증,alien registration card
+외모,look
+외삼촌,uncle
+외할머니,maternal grandmother
+외할아버지,my mother's father
+왼쪽,left
+요가,yoga
+요리,cooking
+요리사,cook
+요리하다,cook
+요일,day of the week
+요즘,nowadays
+욕실,bathroom
+욕조,tub
+용,for
+우리,us
+우산,umbrella
+우유,milk
+우체국,post office
+우체통,mailbox
+우표,stamp
+운동,exercise
+운동선수,athlete
+운동장,playground
+운동하다,exercise
+운동화,running shoes
+운전기사,driver
+운전면허증,driver's license
+울다,cry
+웃다,laugh
+원숭이,monkey
+원피스,one piece
+월요일,monday
+위,top
+윷놀이,yoo - nori
+은행,bank
+음력,lunar
+음식,food
+의료보험증,health insurance
+의사,doctor
+의자,chair
+이,this
+이렇게,like this
+이를 닦다,wipe your teeth
+이름,name
+이름이 뭐예요?,what's your name?
+이마,forehead
+이메일,e-mail
+이모,aunt
+이모티콘,emoticon
+이번 달,this month
+이번 주,this week
+이야기,story
+이쪽,this way
+인분,servings
+인사,greetings
+인사동,Insa-dong
+인삼,ginseng
+인터넷 쇼핑,internet shopping
+일과,daily lesson
+일본,Japan
+일식,Japanese
+일어나다,rise
+일요일,Sunday
+일찍,early
+일하다,work
+읽다,read
+입,mouth
+입학하다,enter a school
+있다,have
+자다,sleep
+자동차,car
+자장면,noodles
+자전거,bicycle
+자주,often
+작년,last year
+작다,small
+잔,glass
+잔치,party
+잘 먹겠습니다,i will enjoy this food
+잘생기다,handsome
+잡채,japchae
+잣,pine nuts
+장,chapter
+장보기,shopping
+장소,place
+재료,material
+재미있다,it is interesting
+저(제),that (a)
+저기,there
+저녁,dinner
+저쪽,there
+적다,little
+전자사전,electronic dictionary
+전자상가,electronics store
+전화,telephone
+전화를 걸다,put through
+전화를 끊다,sever the phone
+전화를 바꾸다,change the phone
+전화를 받다,receive a call
+전화번호,phone number
+전화번호가 몇 번이에요?,it's a phone number a few times?
+전화하다,make a phone call
+점심,lunch
+점퍼,jumper
+정류장,station
+정말,really
+정원,garden
+정장,suit
+정형외과,orthopedics
+제목,title
+제주도,jeju island
+조금,a little
+조끼,vest
+조심하다,be careful
+조용하다,its sillent
+족발,pork feet
+좋다,good
+좋아하다,like
+죄송합니다,sorry
+주다,give
+주말,weekend
+주머니,pocket
+주무시다,sleep
+주문,order
+주문하다,bespeak
+주민등록등본,id card
+주민등록증,registration card
+주민센터,community centre
+주방,kitchen
+주부,housewife
+주사를 맞다,right scanning
+주스,juice
+주차장,parking lot
+주차하다,reside
+준비하다,prepare
+중국,china
+중국어,chinese
+중국집,chinese restaurants
+중부 지방,midland
+중식,chinese
+쥐,rat
+즐겁다,fun
+지갑,wallet
+지금,now
+지난달,last month
+지난주,last week
+지우개,eraser
+지폐,money
+지하,underground
+지하철역,subway station
+직업,job
+직원,employee
+진지,serious
+진통제,painkiller
+집,house
+집들이,houses
+집안일,housework
+차,car
+차가 막히다,car stuck
+차례를 지내다,forgo their turn
+차이,difference
+착하다,be good
+참외,melon
+창고,warehouse
+창문,window
+찾다,find
+채소,vegetable
+책,book
+책상,desk
+처방전,prescription
+청바지,blue jeans
+청소,cleaning
+청소하다,sweep
+체격이 좋다,good physique
+초대를 받다,receive an invitation
+초대하다,invite
+초등학교,elementary school
+초밥,sushi
+추다,dance
+추석,thanksgiving
+축구,football
+축하,celebration
+축하하다,celebrate
+출구,exit
+출근하다,go to work
+출입국관리사무소,immigration office
+춤,dance
+춥다,cold
+취미,hobby
+층,layer
+치과,dentist
+치마,skirt
+치킨,chicken
+친구,friend
+친절하다,kind
+친척,relative
+칠순,seventieth
+칠판,blackboard
+침대,bed
+카드,card
+카디건,cardigan
+칼국수,kalguksu
+캄보디아,cambodia
+캐나다,canada
+커피,coffee
+커피숍,coffee shop
+컴퓨터,computer
+컵,cup
+케이크,cake
+켤레,pair
+코,nose
+코트,coat
+콜라,cola
+콧물,snot
+퀵서비스,quick-service
+크다,big
+큰아버지,keunahbeoji
+타다,ride
+탁자,table
+탕수육,sweet and sour pork
+태권도,taekwondo
+태권도장,taekwondo chapter
+태극기,korean flag
+태어나다,bear
+택시,taxi
+텔레비전,television
+토끼,rabbit
+토마토,tomato
+토요일,saturday
+통,barrel
+통역사,translator
+통장,bank book
+통통하다,chubby
+통화 중이다,call being
+퇴근하다,leave the office
+특히,especially
+틀다,turn on
+티셔츠,t-shirt
+파,wave
+파란색,blue
+파스,paz
+파티,party
+팔찌,bracelet
+팝콘,popcorn
+팥빙수,patbingsu
+패션디자이너,fashion designer
+편리하다,it is convenient
+편의점,convenience
+편지,letter
+포기,abandonment
+포도,grape
+표,table
+표시하다,denote
+푹,fook
+피가 나다,blood oozes
+피곤하다,tired
+피다,blossom
+피망,pimento
+피아노,piano
+피자,pizza
+필리핀,philippines
+필통,pencilcase
+하루,one day
+하루 종일,all day
+하지만,but
+학교,school
+학생,student
+학원,academy
+한과,han
+한국,korea
+한국어,korean
+한국어를 배우다,learn korean
+한국인,korean
+한글,hangul
+한글날,hangul day
+한꺼번에,at the same time
+한라산,mt. hanlla
+한복,han bok
+한식,korean
+한옥,hanok
+한우,hanwoo
+할머니,grandmother
+할아버지,grandfather
+항공,airline
+항상,always
+햄버거,hamburger
+행정 구역,area
+헬스클럽,health club
+현관,entrance
+현금,cash
+형,brother
+호두,walnut
+호랑이,tiger
+호박,pumpkin
+호텔,hotel
+혼자,alone
+홈쇼핑,home shopping
+홍삼,ginseng
+화가,artist
+화요일,tuesday
+화장대,dressing table
+화장실,restroom
+화장품,cosmetics
+화폐,money
+환갑,sixtieth
+회,time
+회사,company
+회사원,employee
+회식하다,it dinners
+회의하다,discuss
+휴가,vacation
+휴게실,rest area
+휴대폰,cellphone
+힘들다,hard
+ATM기기,ATM
