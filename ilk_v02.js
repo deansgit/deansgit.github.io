@@ -12,6 +12,7 @@ const DB_STORE_NAME = "ObjectStore";
 const DB_WORD_INDEX = "WordIndex";
 const DB_VERSION = 2;
 const NUMBER_OF_WORDS = 6;
+var remainingPieces = NUMBER_OF_WORDS;
 var wordList = [];
 var position = [];
 var answerMap = [];
@@ -52,7 +53,6 @@ request.onsuccess = function(){
   var count = store.count();
   
   count.onsuccess = function(){
-    console.log("count is: " + count.result);
     wordList = getWordList(store, NUMBER_OF_WORDS, count.result); //getWordList
     
     //randomize order in which divs receive text   
@@ -100,7 +100,7 @@ window.onload = function(){
   var grid = function(){           
     //create 2 grid elements on DOM for each word
     for (var i = 0; i < NUMBER_OF_WORDS * 2; i++){
-      let gridPiece = document.createElement("table-cell");
+      let gridPiece = document.createElement("div");
       gridPiece.id = i;
       gridPiece.className = "gridpiece"
       gridPiece.fontFamily = "Gaegu";
@@ -117,17 +117,26 @@ window.onload = function(){
             clicks.firstAnsId = answerMap[gridPiece.innerHTML];
             console.log("FIRST: " + clicks.firstClickId + " " + clicks.firstAnsId);
             break;
-          case 2: 
+          case 2:                  
             clicks.secondClickId = gridPiece.id;
             clicks.secondAnsId = answerMap[gridPiece.innerHTML];
             console.log("SECOND: " + clicks.secondClickId + " " + clicks.secondAnsId);
+            let pieces = [
+              document.getElementById(clicks.firstClickId), 
+              document.getElementById(clicks.secondClickId)
+            ];
             if (clicks.secondClickId == clicks.firstClickId){
               gridPiece.style.borderStyle = "outset";
             } else {
               if (clicks.firstAnsId == clicks.secondAnsId){
-                document.getElementById(clicks.firstClickId).style.visibility = "hidden";
-                document.getElementById(clicks.secondClickId).style.visibility = "hidden";
+                correctPiecesAnimation(pieces);
+              } else {
+                wrongPiecesAnimation(pieces);
               }
+            }
+            if (remainingPieces == 0){
+              remainingPieces = NUMBER_OF_WORDS;
+              startNewGame();
             }
             clicks.count = 0; //reset clicks
             break;
@@ -1051,9 +1060,86 @@ function writeWordsinDB(dbstore){
   dbstore.put({word: {id: "892", Korean: "ATM기기", English: "ATM"}});
 }
 
-/* Retrieve word bundle in db */
-function getWordinDB(index){
+/* Animate gridpieces: red for wrong, green for correct.*/
+function wrongPiecesAnimation(pieces){
+  var keyframes = [
+    { backgroundColor: "#FF0033"},
+    { backgroundColor: "#FFCCCC"}
+  ];
+  pieces.forEach(function(piece){
+    piece.style.borderStyle = "outset";
+    piece.animate(keyframes, 500);
+  });
+}
+
+function correctPiecesAnimation(pieces){
+  var keyframes = [
+    { backgroundColor: "#CCFFCC"},
+    { backgroundColor: "#00FF33"},
+  ];
+  pieces.forEach(function(piece){
+    piece.animate(keyframes, 500);
+    setTimeout(function(){
+      piece.style.visibility = "hidden";
+    }, 600);
+  });
+  // track end of game
+  remainingPieces--;
+  console.log(remainingPieces);
+}
+
+/* Draw all pieces. Call when the grid is empty. */
+function startNewGame(){
+  // clear globals
+  wordList = [];
+  position = [];
+  answerMap = [];
   
+  let views = document.getElementsByClassName("gridpiece");
+  // open db again
+  request = indexedDB.open(DB_NAME, DB_VERSION);
+  request.onsuccess = function(){
+    let db = this.result;
+    let tx = db.transaction(DB_STORE_NAME, "readwrite");
+    let store = tx.objectStore(DB_STORE_NAME);
+    let index = store.index(DB_WORD_INDEX);   
+    let count = store.count();
+
+    count.onsuccess = function(){
+      wordList = getWordList(store, NUMBER_OF_WORDS, count.result); //getWordList
+      
+      //randomize order in which divs receive text   
+      for (var i = 0; i < NUMBER_OF_WORDS * 2; i++){
+        position.push(i);
+      }
+      shuffleArray(position);
+      
+      setTimeout(function(){
+        for (var i = 0; i < NUMBER_OF_WORDS; i++){
+          let eng = wordList[i].word.English;
+          let kor = wordList[i].word.Korean;
+          let id = wordList[i].word.id;
+          let corresPos = parseInt(position[i + position.length/2]);
+          document.getElementById(position[i]).innerHTML = eng;
+          document.getElementById(corresPos).innerHTML = kor;
+          answerMap[[eng]] = id;
+          answerMap[[kor]] = id;
+        }
+      }, 1000);      
+      // console.log("first position: " + i + "gets: " + eng + "||||" + "second position: " + corresPos + "gets: " + kor);  
+    }
+
+    tx.oncomplete = function(){
+      db.close();
+    }
+  }
+  
+  setTimeout(function(){
+    Array.from(views).forEach(function(view){
+    view.style.visibility = "visible";
+    view.style.borderStyle = "outset";
+    })
+  }, 1000);
 }
 
 /* Helper function for randomizing output on grid */
