@@ -17,8 +17,12 @@ var wordList = [];
 var position = [];
 var answerMap = [];
 
-if (!window.indexedDB) {
-    window.alert("Your browser doesn't support a stable version of IndexedDB. Vocabulary will not be available.");
+window.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
+window.IDBTransaction = window.IDBTransaction || window.webkitIDBTransaction || window.msIDBTransaction;
+window.IDBKeyRange = window.IDBKeyRange || window.webkitIDBKeyRange || window.msIDBKeyRange;
+
+if (!window.indexedDB && !window.msIndexedDB) {
+  window.alert("Your browser doesn't support a stable version of IndexedDB. Vocabulary will not be available.");
 }
 
 // initialize DB and request user permission to open it
@@ -1155,5 +1159,7 @@ function shuffleArray(array) {
 
 /* Helper function for finding answer pairs */
 function getKeyByValue(object, value) {
-  return Object.keys(object).find(key => object[key] === value);
+  return Object.keys(object).find(function(key) {
+    return object[key] === value
+  });
 }
