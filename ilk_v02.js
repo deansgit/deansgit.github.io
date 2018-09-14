@@ -77,7 +77,6 @@ request.onsuccess = function(){
           answerMap[[kor]] = id;
         }
       }, 1000);      
-      // console.log("first position: " + i + "gets: " + eng + "||||" + "second position: " + corresPos + "gets: " + kor);  
   }
   
 
@@ -119,12 +118,10 @@ window.onload = function(){
           case 1: 
             clicks.firstClickId = gridPiece.id;
             clicks.firstAnsId = answerMap[gridPiece.innerHTML];
-            console.log("FIRST: " + clicks.firstClickId + " " + clicks.firstAnsId);
             break;
           case 2:                  
             clicks.secondClickId = gridPiece.id;
             clicks.secondAnsId = answerMap[gridPiece.innerHTML];
-            console.log("SECOND: " + clicks.secondClickId + " " + clicks.secondAnsId);
             let pieces = [
               document.getElementById(clicks.firstClickId), 
               document.getElementById(clicks.secondClickId)
@@ -1069,34 +1066,28 @@ function writeWordsinDB(dbstore){
 
 /* Animate gridpieces: red for wrong, green for correct.*/
 function wrongPiecesAnimation(pieces){
-  var keyframes = [
-    { backgroundColor: "#FF0033"},
-    { backgroundColor: "#FFCCCC"}
-  ];
   pieces.forEach(function(piece){
     piece.style.borderStyle = "outset";
-    if (!isIE()) {
-      piece.animate(keyframes, 500);
-    }
+    piece.style.backgroundColor ="#FF0033";
+    $(piece).animate({
+      transition: "background-color",
+      backgroundColor: "#FFFFFF",
+    }, 500);
   });
 }
 
 function correctPiecesAnimation(pieces){
-  var keyframes = [
-    { backgroundColor: "#CCFFCC"},
-    { backgroundColor: "#00FF33"},
-  ];
   pieces.forEach(function(piece){
-    if (!isIE()) {
-      piece.animate(keyframes, 500);
-    }
+    $(piece).animate({
+      transition: "background-color",
+      backgroundColor: "#00FF33",
+    }, 500);
     setTimeout(function(){
       piece.style.visibility = "hidden";
     }, 600);
   });
   // track end of game
   remainingPieces--;
-  console.log(remainingPieces);
 }
 
 /* Draw all pieces. Call when the grid is empty. */
@@ -1137,7 +1128,6 @@ function startNewGame(){
           answerMap[[kor]] = id;
         }
       }, 1000);      
-      // console.log("first position: " + i + "gets: " + eng + "||||" + "second position: " + corresPos + "gets: " + kor);  
     }
 
     tx.oncomplete = function(){
