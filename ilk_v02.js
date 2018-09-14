@@ -1084,6 +1084,7 @@ function correctPiecesAnimation(pieces){
     }, 500);
     setTimeout(function(){
       piece.style.visibility = "hidden";
+      piece.style.backgroundColor = "#FFFFFF";
     }, 600);
   });
   // track end of game
