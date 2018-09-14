@@ -1075,7 +1075,9 @@ function wrongPiecesAnimation(pieces){
   ];
   pieces.forEach(function(piece){
     piece.style.borderStyle = "outset";
-    piece.animate(keyframes, 500);
+    if (!isIE()) {
+      piece.animate(keyframes, 500);
+    }
   });
 }
 
@@ -1085,7 +1087,9 @@ function correctPiecesAnimation(pieces){
     { backgroundColor: "#00FF33"},
   ];
   pieces.forEach(function(piece){
-    piece.animate(keyframes, 500);
+    if (!isIE()) {
+      piece.animate(keyframes, 500);
+    }
     setTimeout(function(){
       piece.style.visibility = "hidden";
     }, 600);
@@ -1164,4 +1168,13 @@ function getKeyByValue(object, value) {
   return Object.keys(object).find(function(key) {
     return object[key] === value
   });
+}
+
+/* Helper function for checking if browser is IE or not */
+function isIE() {
+  ua = navigator.userAgent;
+  /* MSIE used to detect old browsers and Trident used to newer ones*/
+  var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
+  
+  return is_ie; 
 }
