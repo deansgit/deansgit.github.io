@@ -22,6 +22,7 @@
   align-items: center;
   font-size: 4vw;  
   height: 0vh; // corrects the min-height vert-align bug in IE
+<<<<<<< HEAD
   min-width: 15vw;
   min-height: 12vh;
   border: 0.5rem outset skyblue;
@@ -44,6 +45,8 @@
   flex-grow: 1;
   align-items: center;
   font-size: 4vw;  
+=======
+>>>>>>> 1ace65544806c7f6865297fba389de7451a3978c
   min-width: 15vw;
   min-height: 12vh;
   border: 0.5rem outset skyblue;
