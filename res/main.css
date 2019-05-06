@@ -35,3 +35,25 @@
   -webkit-user-select: none;
   -o-user-select: none;
 }
+
+.menubutton {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: center;
+  font-size: 4vw;  
+  min-width: 15vw;
+  min-height: 12vh;
+  border: 0.5rem outset skyblue;
+  border-radius: 12px;
+  box-shadow: 0 0 0 0.25em lightgrey;
+  margin: 2%;
+  padding: 1%;
+  
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
