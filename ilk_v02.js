@@ -8,7 +8,7 @@ Tap the pairs to complete the challenge.
 
 /* GLOBALS */
 const DB_NAME = "VocabDatabase";
-const DB_VERSION = 3;
+const DB_VERSION = 4;
 const NUMBER_OF_WORDS = 6;
 var remainingPieces = NUMBER_OF_WORDS;
 var wordList = [];
@@ -54,45 +54,6 @@ request.onupgradeneeded = function(event){
   }
 };
 
-// request.onsuccess = function(){
-    // var db = this.result;
-    // var tx = db.transaction(DB_STORE_NAME, "readwrite");
-    // var store = tx.objectStore(DB_STORE_NAME);
-    // var index = store.index(DB_WORD_INDEX);   
-    // var count = store.count();
-
-    // count.onsuccess = function(){
-      // // getWordList
-      // wordList = getWordList(store, NUMBER_OF_WORDS, count.result); 
-      
-      // // randomize order in which divs receive text   
-      // for (var i = 0; i < NUMBER_OF_WORDS * 2; i++){
-        // position.push(i);
-      // }
-      // shuffleArray(position);
-      
-      // setTimeout(function(){
-          // for (var i = 0; i < NUMBER_OF_WORDS; i++){
-            // let ans = wordList[i].word.answer;
-            // let que = wordList[i].word.question;
-            // let id = wordList[i].word.id;
-            // let corresPos = parseInt(position[i + position.length/2]);
-            // document.getElementById(position[i]).innerHTML = ans;
-            // document.getElementById(corresPos).innerHTML = que;
-            // answerMap[[ans]] = id;
-            // answerMap[[que]] = id;
-          // }
-        // }, 1000);      
-
-      // setTimeout(startNewGame(DB_STORE_NAME, DB_STORE_INDEX), 1000);
-        // // console.log("first position: " + i + "gets: " + eng + "||||" + "second position: " + corresPos + "gets: " + kor); 
-    // }
-
-    // tx.oncomplete = function(){
-      // db.close();
-  // }
-// }
-
 /* Create a screen that shows the word */
 window.onload = function(){
   showMainMenu(display);
@@ -136,6 +97,19 @@ function correctPiecesAnimation(pieces){
   });
   // track end of game
   remainingPieces--;
+}
+
+/* Animate Victory Screen */
+function splashScreen(){
+  let splash = document.getElementById("splash");
+  let pic = document.createElement("img");
+  pic.src = "https://placekitten.com/g/300/200";
+  splash.appendChild(pic);
+  splash.style.visibility = "visible";
+  splash.style.zIndex = "1";
+  splash.addEventListener("click", function(){    
+    splash.style.visibility = "hidden";
+  });
 }
 
 /* Draw all pieces.*/
@@ -230,7 +204,8 @@ function startNewGame(dbStoreName,dbWordIndex){
             }
             if (remainingPieces == 0){
               remainingPieces = NUMBER_OF_WORDS;
-              restartGame(dbStoreName, dbWordIndex);
+              splashScreen();
+              setTimeout(restartGame(dbStoreName, dbWordIndex), 1000);
             }
             clicks.count = 0; //reset clicks
             break;
