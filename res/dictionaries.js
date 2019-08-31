@@ -516,7 +516,7 @@ var KIIP1 = [
   {id: "326", question: "변호사", answer: "lawyer"},
   {id: "327", question: "병(단위명사)", answer: "bottle"},
   {id: "328", question: "병원", answer: "hospital"},
-  {id: "329", question: "보건소", answer: "public health"},
+  {id: "329", question: "보건소", answer: "health center"},
   {id: "330", question: "보내다", answer: "send"},
   {id: "331", question: "보다", answer: "see"},
   {id: "332", question: "보름달", answer: "full moon"},
