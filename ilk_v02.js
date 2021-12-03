@@ -204,7 +204,7 @@ function startNewGame(dbStoreName,dbWordIndex){
             }
             if (remainingPieces == 0){
               remainingPieces = NUMBER_OF_WORDS;
-              splashScreen();
+              //splashScreen();
               setTimeout(restartGame(dbStoreName, dbWordIndex), 1000);
             }
             clicks.count = 0; //reset clicks
